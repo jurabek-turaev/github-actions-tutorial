@@ -6,7 +6,6 @@ from flask import Flask
 load_dotenv()
 
 app = Flask(__name__)
-# comment
 
 
 @app.route("/<random_string>")
