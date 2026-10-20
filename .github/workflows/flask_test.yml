@@ -8,7 +8,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    deafults:
+    defaults:
       run:
         working-directory: ./app/
 
