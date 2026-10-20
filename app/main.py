@@ -6,11 +6,11 @@ from flask import Flask
 load_dotenv()
 
 app = Flask(__name__)
+# comment
 
 
 @app.route("/<random_string>")
 def return_backwards_string(random_string):
-    # comment
     return "".join(reversed(random_string))
 
 
